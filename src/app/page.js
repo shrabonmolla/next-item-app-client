@@ -1,11 +1,11 @@
 "use client";
-import HeroSection from "./components/landing/HeroSection";
-import FeaturesSection from "./components/landing/FeaturesSection";
-import AboutSection from "./components/landing/AboutSection";
-import ItemsPreviewSection from "./components/landing/ItemsPreviewSection";
-import TestimonialsSection from "./components/landing/TestimonialsSection";
-import NewsletterSection from "./components/landing/NewsletterSection";
-import ContactSection from "./components/landing/ContactSection";
+import HeroSection from "../landing/HeroSection";
+import FeaturesSection from "../landing/FeaturesSection";
+import AboutSection from "../landing/AboutSection";
+import ItemsPreviewSection from "../landing/ItemsPreviewSection";
+import TestimonialsSection from "../landing/TestimonialsSection";
+import NewsletterSection from "../landing/NewsletterSection";
+import ContactSection from "../landing/ContactSection";
 import { useEffect, useState } from "react";
 
 export default function Home() {
